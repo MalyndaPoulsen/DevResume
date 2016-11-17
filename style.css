@@ -517,9 +517,10 @@ display: none;
      body {
         overflow:hidden;
     }
-
     #printSection {
           visibility:visible;
+    }
+    #printSection {
         position:absolute;
         left:0;
         top:0;
