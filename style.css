@@ -517,10 +517,9 @@ display: none;
      body {
         visibility:hidden;
     }
-    #printSection{
-        visibility:visible;
-    }
+
     #printSection {
+          visibility:visible;
         position:absolute;
         left:0;
         top:0;
