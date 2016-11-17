@@ -509,19 +509,16 @@ a, li{
 display: none;
 }*/
 @media screen {
-  #printThis {
+  #printSection {
       display: none;
   }
 }
 
 @media print {
-     html, body {
-        height: 99%;    
-    }
-  body * {
+  body  {
     visibility:hidden;
   }
-  #printSection, #printSection * {
+  #printSection, #printSection {
     visibility:visible;
   }
   #printSection {
@@ -529,6 +526,12 @@ display: none;
     left:0;
     top:0;
   }
+}
+@media print {
+    html, body {
+        height: 100%;    
+    }
+
 }
 
 
