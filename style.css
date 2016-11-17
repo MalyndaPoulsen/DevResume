@@ -509,7 +509,7 @@ a, li{
 display: none;
 }*/
 @media screen {
-  #printSection {
+  #printThis {
       display: none;
   }
 }
