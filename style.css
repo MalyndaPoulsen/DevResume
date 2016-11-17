@@ -531,6 +531,9 @@ display: none;
     #dials{
         display: none;
     }
+    #btnPrint{
+        display: none;
+    }
 }
 @media print {
     printSection {
