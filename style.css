@@ -515,6 +515,9 @@ display: none;
 }
 
 @media print {
+     html, body {
+        height: 100%;    
+    }
   body * {
     visibility:hidden;
   }
