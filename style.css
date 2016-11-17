@@ -516,7 +516,7 @@ display: none;
 
 @media print {
   body  {
-    display: none;
+    visibility: hidden;
   }
   #printSection, #printSection {
     visibility:visible;
