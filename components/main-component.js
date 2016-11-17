@@ -22,11 +22,11 @@ function printElement(elem) {
     if (!$printSection) {
         var $printSection = document.createElement("div");
         $printSection.id = "printSection";
-        // document.body.appendChild($printSection);
+        document.body.appendChild($printSection);
     }
     
     $printSection.innerHTML = "";
-    $printSection.appendChild(domClone);
+    // $printSection.appendChild(domClone);
     window.print();
 }
 
