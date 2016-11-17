@@ -515,10 +515,10 @@ display: none;
 }
 @media print {
      body {
-        overflow:hidden;
+        visibility:hidden;
     }
-    #printSection {
-          visibility:visible;
+    #printSection{
+        visibility:visible;
     }
     #printSection {
         position:absolute;
