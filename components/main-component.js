@@ -11,7 +11,7 @@ function MainController(){
 var mc= this;
 
 document.getElementById("btnPrint").onclick = function () {
-    printElement(document.getElementById(id="printSection"));
+    printElement(document.getElementById(id="printThis"));
 }
 
 function printElement(elem) {
