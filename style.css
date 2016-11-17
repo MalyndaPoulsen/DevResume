@@ -517,7 +517,7 @@ display: none;
      body {
         visibility:hidden;
     }
-    #printSection, #printSection{
+    #printSection{
         visibility:visible;
     }
     #printSection {
