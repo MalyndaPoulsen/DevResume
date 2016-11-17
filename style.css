@@ -510,31 +510,30 @@ display: none;
 }*/
 @media screen {
     #printThis {
-         visibility:visible;
-    }
-    #hardcopyv{
         display: none;
     }
 }
 @media print {
-     /*body {
-        visibility:visible;
-    }*/
-    #printSection{
+     body {
+        visibility:hidden;
+    }
+    #printSection, #printSection{
         visibility:visible;
     }
     #printSection {
-              min-height: auto;  
         position:absolute;
         left:0;
         top:0;
     }
-    #seconSection{
-        display: none;
-    }
-
 }
-
+@media print {
+    html, body {
+        height: 100%;    
+    }
+.con .printer-btn{
+    text-align: center;
+}
+}
 
 
 
