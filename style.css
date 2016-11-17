@@ -524,22 +524,17 @@ display: none;
         visibility:visible;
     }
     #printSection {
+              min-height: auto;  
         position:absolute;
         left:0;
         top:0;
     }
-    #dials{
+    #seconSection{
         display: none;
     }
-    #btnPrint{
-        display: none;
-    }
+
 }
-@media print {
-    printSection {
-        min-height: auto;    
-    }
-}
+
 
 
 
