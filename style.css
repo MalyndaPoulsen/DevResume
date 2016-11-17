@@ -516,7 +516,7 @@ display: none;
 
 @media print {
      html, body {
-        min-height: auto;    
+        height: 100%;    
     }
   body * {
     visibility:hidden;
