@@ -528,7 +528,7 @@ display: none;
   }
 }
 @media print {
-    html, body {
+    #printThis {
         height: 100%;    
     }
 
