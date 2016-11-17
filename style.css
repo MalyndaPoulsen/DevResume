@@ -515,7 +515,7 @@ display: none;
 }
 @media print {
      body {
-        visibility:hidden;
+        overflow:hidden;
     }
 
     #printSection {
