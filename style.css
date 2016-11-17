@@ -528,7 +528,7 @@ display: none;
 }
 @media print {
     html, body {
-        height: 99%;    
+        min-height: auto;    
     }
 }
 
