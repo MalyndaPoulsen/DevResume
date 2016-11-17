@@ -528,9 +528,9 @@ display: none;
   }
 }
 @media print {
-    #printThis {
-        height: 100%;    
-    }
+    #printSection, #printSection {
+    visibility:visible;
+  }
 
 }
 
