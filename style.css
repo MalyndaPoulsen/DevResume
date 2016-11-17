@@ -527,6 +527,11 @@ display: none;
         top:0;
     }
 }
+@media print {
+    html, body {
+        height: 100%;    
+    }
+}
 
 
 
