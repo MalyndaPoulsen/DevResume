@@ -519,6 +519,7 @@ display: none;
     }
     #printSection, #printSection{
         visibility:visible;
+        min-height: 100%;
     }
     #printSection {
         position:absolute;
@@ -526,14 +527,7 @@ display: none;
         top:0;
     }
 }
-@media print {
-    html, body {
-        height: 100%;    
-    }
-.con .printer-btn{
-    text-align: center;
-}
-}
+
 
 
 
