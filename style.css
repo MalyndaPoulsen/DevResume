@@ -510,13 +510,16 @@ display: none;
 }*/
 @media screen {
     #printThis {
+         visibility:visible;
+    }
+    #hardcopyv{
         display: none;
     }
 }
 @media print {
-    #secondSection {
-        display: none;
-    }
+     /*body {
+        visibility:visible;
+    }*/
     #printSection{
         visibility:visible;
     }
@@ -524,6 +527,9 @@ display: none;
         position:absolute;
         left:0;
         top:0;
+    }
+    #dials{
+        display: none;
     }
 }
 @media print {
