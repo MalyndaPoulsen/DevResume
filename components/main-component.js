@@ -26,7 +26,7 @@ function printElement(elem) {
     }
     
     $printSection.innerHTML = "";
-    // $printSection.appendChild(domClone);
+    $printSection.appendChild(domClone);
     window.print();
 }
 
