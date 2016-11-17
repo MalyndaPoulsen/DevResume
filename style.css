@@ -527,10 +527,7 @@ display: none;
     top:0;
   }
 }
-@media print {
-    #printSection, #printSection {
-    visibility:visible;
-  }
+
 
 }
 
