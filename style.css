@@ -515,7 +515,7 @@ display: none;
 }
 @media print {
      body {
-       display: none;
+      visibility: none;
     }
     #printThis, #printSection{
         visibility:visible;
