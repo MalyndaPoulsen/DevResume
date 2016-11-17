@@ -514,7 +514,7 @@ display: none;
     }
 }
 @media print {
-     body {
+    #secondSection {
         display: none;
     }
     #printSection{
