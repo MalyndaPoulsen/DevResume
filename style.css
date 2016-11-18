@@ -515,10 +515,11 @@ display: none;
 }
 @media print {
      body {
-        visibility:hidden;
+        display: none;
     }
     #printSectiom, #printSection{
-        visibility:visible;
+        display: block;
+        /*visibility:visible;*/
         max-height: 100%;
     }
     #printSection {
