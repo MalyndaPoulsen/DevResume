@@ -514,12 +514,11 @@ display: none;
     }
 }
 @media print {
-     body {
+     .top-none, .bottom-none {
         display: none;
     }
-    #printSectiom, #printSection{
-        display: block;
-        /*visibility:visible;*/
+    #printSection{
+        visibility:visible;
         max-height: 100%;
     }
     #printSection {
